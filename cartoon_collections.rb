@@ -11,9 +11,9 @@ end
   summon_captain_planet(array)
 end
 
-def long_planeteer_calls
-  
-   i = 0 
+
+def long_planeteer_calls(array)
+  i = 0 
   array.map do |words|
     if words.length < 4 
       return true
