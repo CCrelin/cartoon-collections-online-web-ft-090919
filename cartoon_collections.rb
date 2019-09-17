@@ -8,9 +8,9 @@ def summon_captain_planet
   array.map do |caps|
     caps.capitalize + "!"
   end
-caps.upcase + "!"
+  caps.upcase + "!"
+  summon_captain_planet(array)
 end
-summon_captain_planet(array)
 
 def long_planeteer_calls
   
