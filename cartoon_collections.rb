@@ -1,10 +1,10 @@
-def roll_call_dwarves
+def roll_call_dwarves(array)
   array.each.with_index(1) do |dwarfs, index|
     puts "#{index} . #{dwarfs}"
   end
 end
 
-def summon_captain_planet
+def summon_captain_planet(array)
   array.map do |caps|
     caps.capitalize + "!"
   end
